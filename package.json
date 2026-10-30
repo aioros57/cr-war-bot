@@ -1,0 +1,14 @@
+{
+  "name": "cr-war-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord de suivi des guerres de clans Clash Royale (multi-clans, rappels à pression progressive, rapports)",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": { "start": "node src/index.js" },
+  "engines": { "node": ">=18.17" },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3"
+  }
+}
